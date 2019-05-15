@@ -1,0 +1,21 @@
+NAME = "binutils"
+DESCRIPTION = "GNU assembler, linker and binary utilities"
+VERSION = "2.32"
+LICENSE = "GPLv3+"
+URI = "http://ftp.gnu.org/gnu/binutils/binutils-2.32.tar.xz"
+SHA1 = "cd45a512af1c8a508976c1beb4f5825b3bb89f4d"
+MD5SUM = "0d174cdaf85721c5723bf52355be41e6"
+
+SECTION = "development"
+
+DOWNLOADER = "wget"
+BUILD_SCRIPT = "binutils"
+BUILD_DEPENDS = "one,two,three"
+
+RUN_DEPENDS = "one,three"
+
+
+PATCH_FILES = "\
+    one \
+    two \
+"
